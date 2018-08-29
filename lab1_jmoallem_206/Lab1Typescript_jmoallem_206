@@ -1,0 +1,44 @@
+Script started on Wed 29 Aug 2018 10:52:46 EDT
+[?1034hbash-4.2$ date
+Wed Aug 29 10:52:57 EDT 2018
+bash-4.2$ uname -a
+Linux zeus-2 3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.2$ pwd
+/home/jmoallem/CS262/lab1_jmoallem_206
+bash-4.2$ ls
+lab1  lab1_jmoallem_206  lab1_jmoallem_206.c  Lab1Typescript_jmoallem_206  Makefile
+bash-4.2$ cat lab1_<username>_<labsection>.c
+bash: username: No such file or directory
+bash-4.2$ cat lab1_<username>_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.c[1P_<labsection>.cj_<labsection>.cm_<labsection>.co_<labsection>.ca_<labsection>.cl_<labsection>.cl_<labsection>.ce_<labsection>.cm_<labsection>.c[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c2.c0.c6.c
+/*
+ * Jonathan Moallem G01169880
+ * CS 262, Lab Section 206
+ * Lab 1
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main()
+{
+    printf("Hello world!\n");
+    printf("My name is Jonathan Moallem.\n");
+    return 0;
+}
+bash-4.2$  rm lab1 lab1_<username>_<labsection>[K[K[K[K[K[K[K[K[K[K[K[K206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206j_206m_206o_206a_206l_206l_206e_206m_206
+bash-4.2$ make all
+gcc -g -Wall -o lab1_jmoallem_206 lab1_jmoallem_206.c
+bash-4.2$ ls
+lab1_jmoallem_206  lab1_jmoallem_206.c	Lab1Typescript_jmoallem_206  Makefile
+bash-4.2$ lab1_<username>_<labsection>[K[K[K[K[K[K[K[K[K[K[K[K206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206[1P_206j_206m_206o_206a_206l_206l_206e_206m_206[C[C[C[C[C[C[C[C[C[C.lab1_jmoallem_206[C[C[C[C[C[C[C[C[C[C[C/lab1_jmoallem_206[C[C[C[C[C[C[C[C[C[C[C[C
+Hello world!
+My name is Jonathan Moallem.
+bash-4.2$ gcc -g -Wall -o lab1 lab1_<username>_<labsection>.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c2.c0.c6.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.c[1P_206.cj_206.cm_206.co_206.ca_206.cl_206.cl_206.ce_206.cm_206.c
+bash-4.2$ ls
+lab1  lab1_jmoallem_206  lab1_jmoallem_206.c  Lab1Typescript_jmoallem_206  Makefile
+bash-4.2$ ./lab1
+Hello world!
+My name is Jonathan Moallem.
+bash-4.2$ exit
+
+Script done on Wed 29 Aug 2018 10:55:35 EDT
